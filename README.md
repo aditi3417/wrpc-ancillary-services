@@ -38,3 +38,4 @@ logs/                run logs
 |------|--------|--------|
 | 1 | `01_fetch_lists.py` | Built: fetches menu snapshots to `data/raw/menus/`, writes `data/interim/01_file_list.csv` |
 | 2 | `02_build_manifest.py` | Built: classifies titles, expands to weeks, provisional base plus overlays per week x section; writes `data/interim/02_manifest.csv`, `02_week_coverage.csv`, `02_download_list.csv` |
+| 3 | `03_download_pdfs.py` | Built: downloads every file on the step 02 download list to `data/raw/pdfs/` (validated, hash-checked on re-runs); writes `data/interim/03_download_log.csv` |

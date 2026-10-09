@@ -37,6 +37,14 @@ FILE_LIST_CSV = INTERIM_DIR / "01_file_list.csv"
 MANIFEST_CSV = INTERIM_DIR / "02_manifest.csv"
 WEEK_COVERAGE_CSV = INTERIM_DIR / "02_week_coverage.csv"
 DOWNLOAD_LIST_CSV = INTERIM_DIR / "02_download_list.csv"
+DOWNLOAD_LOG_CSV = INTERIM_DIR / "03_download_log.csv"
+
+# --- PDF download ------------------------------------------------------------
+# False: keep existing PDFs whose hash matches the download log; report any
+# existing PDF that does not match instead of overwriting it.
+# True: download every file again and replace the existing copy.
+REDOWNLOAD = False
+DOWNLOAD_DELAY_SECONDS = (1.0, 2.0)  # random pause between requests (min, max)
 
 # --- Manifest checks ---------------------------------------------------------
 # Flag a date mismatch only when the filename upload date and the title date
