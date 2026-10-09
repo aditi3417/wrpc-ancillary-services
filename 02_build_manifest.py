@@ -102,11 +102,16 @@ def classify(title):
     m = STATION_RE.search(title)
     if m and WHAT_RE.match(m["what"]) and not SECTION_WORD_RE.search(m["stations"]):
         stations = [s.strip() for s in STATION_SPLIT_RE.split(m["stations"]) if s.strip()]
+        # If a narrowed table is named (e.g. "TRAS Shortfall"), list every item named, in
+        # title order ("TRAS Shortfall and SCUC" -> "TRAS Shortfall;SCUC"). If only whole
+        # sections are named, leave tables blank: the sections column already says it.
+        items = [re.sub(r"\s+", " ", t) for t in re.findall(TOKEN, m["what"], re.I)]
+        named_table = any(TABLE_RE.fullmatch(t) for t in items)
         return out | {
             "scope": "STATION_SPECIFIC",
             "sections": [s for s in SECTIONS if re.search(rf"\b{s}\b", m["what"])],
             "stations": join(stations),
-            "tables": join(t.title().replace("Tras", "TRAS") for t in TABLE_RE.findall(m["what"])),
+            "tables": join(items) if named_table else "",
         }
     return out
 
