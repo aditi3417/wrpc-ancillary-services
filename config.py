@@ -34,6 +34,14 @@ REFRESH_MENUS = False
 
 # --- Step outputs ------------------------------------------------------------
 FILE_LIST_CSV = INTERIM_DIR / "01_file_list.csv"
+MANIFEST_CSV = INTERIM_DIR / "02_manifest.csv"
+WEEK_COVERAGE_CSV = INTERIM_DIR / "02_week_coverage.csv"
+DOWNLOAD_LIST_CSV = INTERIM_DIR / "02_download_list.csv"
+
+# --- Manifest checks ---------------------------------------------------------
+# Flag a date mismatch only when the filename upload date and the title date
+# differ by more than this many days (uploads often land a day or two later).
+DATE_MISMATCH_TOLERANCE_DAYS = 2
 
 # --- Scope -------------------------------------------------------------------
 YEARS_NEEDED = [2024, 2025, 2026]

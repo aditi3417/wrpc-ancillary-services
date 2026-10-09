@@ -37,3 +37,4 @@ logs/                run logs
 | Step | Script | Status |
 |------|--------|--------|
 | 1 | `01_fetch_lists.py` | Built: fetches menu snapshots to `data/raw/menus/`, writes `data/interim/01_file_list.csv` |
+| 2 | `02_build_manifest.py` | Built: classifies titles, expands to weeks, provisional base plus overlays per week x section; writes `data/interim/02_manifest.csv`, `02_week_coverage.csv`, `02_download_list.csv` |
