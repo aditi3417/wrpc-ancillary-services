@@ -27,6 +27,14 @@ BASE_URL = "https://www.wrpc.gov.in"
 MENU_API = BASE_URL + "/api/TopMenu/{menu_id}"
 SEED_MENU_ID = 1107
 
+# Menu responses are saved as timestamped snapshots in RAW_MENUS_DIR and never
+# overwritten. False: reuse the latest saved snapshot per menu (fetch only if
+# none exists). True: fetch and save a new snapshot.
+REFRESH_MENUS = False
+
+# --- Step outputs ------------------------------------------------------------
+FILE_LIST_CSV = INTERIM_DIR / "01_file_list.csv"
+
 # --- Scope -------------------------------------------------------------------
 YEARS_NEEDED = [2024, 2025, 2026]
 

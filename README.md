@@ -36,4 +36,4 @@ logs/                run logs
 
 | Step | Script | Status |
 |------|--------|--------|
-| 1 | `01_fetch_lists.py` | To be built |
+| 1 | `01_fetch_lists.py` | Built: fetches menu snapshots to `data/raw/menus/`, writes `data/interim/01_file_list.csv` |

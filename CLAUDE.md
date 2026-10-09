@@ -1,7 +1,7 @@
 # Project rules
 
 1. Work on one step at a time. Never build beyond the step requested.
-2. Pipeline scripts are numbered at the project root (`01_…py`), use `# %%` cell markers, take all paths and constants from `config.py`, and put shared helpers in `src/`.
+2. Pipeline scripts are numbered at the project root (`01_…py`), use `# %%` cell markers, take all paths and constants from `config.py`, and put shared helpers in `src/`. Each step's output files carry the same number prefix as the script (e.g. `01_fetch_lists.py` → `data/interim/01_file_list.csv`), with paths defined in `config.py`.
 3. Never modify anything in `data/raw/`. All outputs must be regenerable from raw.
 4. Every extracted record must carry provenance: source file, page and table type.
 5. Never silently drop, fill or guess data. Flag problems and report them.
