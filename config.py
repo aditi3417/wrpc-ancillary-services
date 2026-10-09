@@ -29,8 +29,19 @@ SEED_MENU_ID = 1107
 
 # --- Scope -------------------------------------------------------------------
 YEARS_NEEDED = [2024, 2025, 2026]
+
+# Describe the analysis period only; not used for filtering.
 ANALYSIS_START = date(2025, 1, 1)
 ANALYSIS_END = date(2026, 8, 31)
+
+# Weeks run Monday to Sunday and belong to the year containing their Thursday
+# (ISO 8601 week-year). The same rule is applied to months (our extension).
+# See A01 in docs/assumptions_log.md.
+FIRST_WEEK_START = date(2024, 12, 30)  # Monday of ISO week 2025-W01
+LAST_WEEK_START = date(2026, 8, 24)  # Monday of the last week in Aug 2026
+assert FIRST_WEEK_START.weekday() == 0, "FIRST_WEEK_START must be a Monday"
+assert LAST_WEEK_START.weekday() == 0, "LAST_WEEK_START must be a Monday"
+EXPECTED_WEEKS = (LAST_WEEK_START - FIRST_WEEK_START).days // 7 + 1
 
 # --- HTTP --------------------------------------------------------------------
 USER_AGENT = (
