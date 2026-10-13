@@ -41,3 +41,4 @@ logs/*.log
 data/interim/04_page_text.jsonl
 data/interim/04_tables.jsonl
 Submission*
+CLAUDE.md
