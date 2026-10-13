@@ -1,0 +1,38 @@
+question,metric,value,unit,source
+Q1,"Total net payable from pool, CY2025",3620.55,₹ crore,outputs/tables/09_q1_year_comparison.csv
+Q1,"Total net payable from pool, CY2026 to Aug",1786.57,₹ crore,outputs/tables/09_q1_year_comparison.csv
+Q1,"Weekly average, CY2025",69.63,₹ crore/week,outputs/tables/09_q1_year_comparison.csv
+Q1,"Weekly average, CY2026 to Aug",51.04,₹ crore/week,outputs/tables/09_q1_year_comparison.csv
+Q1,Highest week (2025-06-09),270.03,₹ crore,outputs/tables/09_q1_highest_lowest_weeks.csv
+Q1,Weeks the pool paid out / received,75 / 12,weeks,outputs/tables/09_q1_year_comparison.csv
+Q2,"SCUC share of total net, CY2025",106.3,%,outputs/tables/09_q2_mechanism_share_by_year.csv
+Q2,"TRAS-III total net, CY2025",-262.54,₹ crore,outputs/tables/09_q2_mechanism_share_by_year.csv
+Q2,"SCUC share of total net, CY2026 to Aug",107.9,%,outputs/tables/09_q2_mechanism_share_by_year.csv
+Q2,"TRAS-III total net, CY2026 to Aug",-151.78,₹ crore,outputs/tables/09_q2_mechanism_share_by_year.csv
+Q2,Weeks with TRAS-III net paid into the pool,62,weeks of 87,outputs/tables/09_q2_tras3_weekly.csv
+Q2,"Gross paid out by the pool, CY2025",5565.17,₹ crore,outputs/tables/09_q2_gross_flows.csv
+Q2,"Gross received back by the pool, CY2025",1944.63,₹ crore,outputs/tables/09_q2_gross_flows.csv
+Q2,"SCUC share of gross payouts, CY2025",86.1,%,outputs/tables/09_q2_gross_flows.csv
+Q2,"Gross paid out by the pool, CY2026 to Aug",2987.68,₹ crore,outputs/tables/09_q2_gross_flows.csv
+Q2,"Gross received back by the pool, CY2026 to Aug",1201.11,₹ crore,outputs/tables/09_q2_gross_flows.csv
+Q2,"SCUC share of gross payouts, CY2026 to Aug",82.3,%,outputs/tables/09_q2_gross_flows.csv
+Q3,SCUC receipts: top-5 plant share,75.5,%,outputs/tables/09_q3_concentration.csv
+Q3,SCUC receipts: HHI,1356,index,outputs/tables/09_q3_concentration.csv
+Q3,All mechanisms receipts: top-5 plant share,77.1,%,outputs/tables/09_q3_concentration.csv
+Q3,Gas fuel streams' share of SCUC receipts,36.7,%,outputs/tables/09_q3_gas_fuel_streams.csv
+Q3,"SCUC-Up rate, gas fuel streams / other",14.22 / 4.41,₹/kWh,outputs/tables/09_q3_gas_fuel_streams.csv
+Q4,Weeks with at least one revision,33,weeks of 87,outputs/tables/09_q4_revision_first_vs_final.csv
+Q4,"Median days, week end to first upload (all weeks)",9.7,days,outputs/tables/09_q4_publication_lag.csv
+Q4,"Median days, week end to final version (all weeks)",10.5,days,outputs/tables/09_q4_publication_lag.csv
+Q4,Files with misdescribing titles,10,files,outputs/tables/09_q4_titles_misdescribed.csv
+Q4,"Largest first-to-final revision (2025-06-02, Consolidated (all))",-39.79,₹ crore,outputs/tables/09_q4_revision_first_vs_final.csv
+Q5,"SRAS net, both years",11.83,₹ crore,outputs/tables/09_q5_sras_weekly.csv
+Q5,"SRAS incentive, both years",119.7,₹ crore,outputs/tables/09_q5_sras_weekly.csv
+Q5,Share of participating plant-days at 95%+,21.0,%,outputs/tables/09_q5_incentive_bands.csv
+Q5,Share of participating plant-days below 20%,2.8,%,outputs/tables/09_q5_incentive_bands.csv
+Q5,Plant-days excluded as non-participating,2009,plant-days,outputs/tables/09_q5_incentive_bands.csv
+Q5,Plant-days above 100% (flagged),151,plant-days,outputs/tables/09_q5_performance_by_plant.csv
+Q6,"Jan–Aug ₹ crore per week, 2025",52.23,₹ crore/week,outputs/tables/09_q6_jan_aug_comparison.csv
+Q6,"Jan–Aug ₹ crore per week, 2026",51.04,₹ crore/week,outputs/tables/09_q6_jan_aug_comparison.csv
+Q6,Highest month per week (Sep 2025),189.63,₹ crore/week,outputs/tables/09_q6_monthly_per_week.csv
+Q6,Jan–Aug months where 2026 was higher than 2025,4,months of 8,outputs/tables/09_q6_jan_aug_comparison.csv

@@ -1,0 +1,5 @@
+quirk,detail
+SRAS performance above 100%,"167 published values above 100% (max 168.7%), in 17 weeks from 2024-12-30 to 2025-04-28, mostly NSPCL (133) and MOUDA (17). Recorded as published; whether to cap or exclude them is an analysis decision."
+Negative TRAS-Down MWh in the combined layout,"12 selected rows (gas stations Gandhar/Kawas RLNG/ComGas, Jan–May 2025) and 121 superseded rows (mostly three June 2025 originals where nearly the whole column is negative). The rupee columns reconcile; the sign of these energy quantities is as published."
+Label conflict (A18),"two June 2026 overlay tables headed ""Shortfall Condition"" with ""Emergency"" column labels are treated as Shortfall; the files have no consolidated table to confirm this directly."
+2025-06-30 TRAS,"the IPP re-issue (trasjun25.5b) is the base; it removes the 8 IPP stations' Emergency charges (₹1.35 crore). This is the published latest version, but it is a material revision worth noting in any analysis of that week."

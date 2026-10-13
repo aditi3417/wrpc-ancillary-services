@@ -36,3 +36,8 @@ logs/*.log
 
 # OS
 .DS_Store
+
+# Large regenerable step outputs
+data/interim/04_page_text.jsonl
+data/interim/04_tables.jsonl
+Submission*

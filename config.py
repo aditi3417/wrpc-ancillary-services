@@ -38,6 +38,48 @@ MANIFEST_CSV = INTERIM_DIR / "02_manifest.csv"
 WEEK_COVERAGE_CSV = INTERIM_DIR / "02_week_coverage.csv"
 DOWNLOAD_LIST_CSV = INTERIM_DIR / "02_download_list.csv"
 DOWNLOAD_LOG_CSV = INTERIM_DIR / "03_download_log.csv"
+PAGE_INVENTORY_CSV = INTERIM_DIR / "04_page_inventory.csv"
+FILE_INVENTORY_CSV = INTERIM_DIR / "04_file_inventory.csv"
+FORMAT_TIMELINE_CSV = INTERIM_DIR / "04_format_timeline.csv"
+PAGE_TEXT_JSONL = INTERIM_DIR / "04_page_text.jsonl"
+TABLES_JSONL = INTERIM_DIR / "04_tables.jsonl"  # cell-based tables (src/table_reader) on statement pages
+TABLE_INSTANCES_CSV = INTERIM_DIR / "04_table_instances.csv"  # row-number check per table instance
+EXTRACT_CSV = {  # step 06: one tidy dataset per table type
+    "TRAS_SHORTFALL": INTERIM_DIR / "06_tras_shortfall.csv",
+    "TRAS_EMERGENCY": INTERIM_DIR / "06_tras_emergency.csv",
+    "TRAS_SHORTFALL_EMERGENCY": INTERIM_DIR / "06_tras_shortfall_emergency.csv",
+    "TRAS_MARKET": INTERIM_DIR / "06_tras_market.csv",
+    "SRAS_PAYMENT": INTERIM_DIR / "06_sras_payment.csv",
+    "SRAS_PERFORMANCE": INTERIM_DIR / "06_sras_performance.csv",
+    "SCUC": INTERIM_DIR / "06_scuc.csv",
+    "CONSOLIDATED": INTERIM_DIR / "06_consolidated.csv",
+}
+PRINTED_TOTALS_CSV = INTERIM_DIR / "06_printed_totals.csv"
+EXTRACTION_LOG_CSV = INTERIM_DIR / "06_extraction_log.csv"
+REFERENCE_DIR = DOCS_DIR / "reference"
+STATION_MASTER_CSV = REFERENCE_DIR / "station_master.csv"  # approved station_raw -> station_id mappings
+STATION_PROPOSALS_CSV = INTERIM_DIR / "08_station_name_proposals.csv"
+STATION_SIMILARITY_CSV = INTERIM_DIR / "08_station_similarity.csv"
+STATION_SIMILARITY_THRESHOLD = 0.85  # near-duplicate report: string similarity after normalisation
+FACTS_CSV = PROCESSED_DIR / "08_facts.csv"
+WEEKLY_SUMMARY_CSV = PROCESSED_DIR / "08_weekly_summary.csv"
+SRAS_PERFORMANCE_DAILY_CSV = PROCESSED_DIR / "08_sras_performance_daily.csv"
+VALIDATION_RESULTS_CSV = INTERIM_DIR / "07_validation_results.csv"
+REVISION_DIFFS_CSV = INTERIM_DIR / "07_revision_diffs.csv"
+REVISION_SUMMARY_CSV = INTERIM_DIR / "07_revision_summary.csv"  # one row per consecutive version pair
+VALIDATION_NOTES_MD = DOCS_DIR / "validation_notes.md"
+
+# --- Validation tolerances (step 07) -------------------------------------------
+# Differences up to these amounts per row involved (summed over the rows of a total) are rounding.
+ROUNDING_TOL_RS_PER_ROW = 1.0
+ROUNDING_TOL_MWH_PER_ROW = 0.01
+FILE_ROLES_CSV = INTERIM_DIR / "05_file_roles.csv"
+SELECTION_CSV = INTERIM_DIR / "05_selection.csv"
+
+# --- Content-based selection (step 05) ----------------------------------------
+# Station-count ratio of a candidate to the same week's step 02 base, per table.
+COMPLETENESS_THRESHOLD = 0.9  # ratio >= this: complete restatement of the section
+REVIEW_BAND = (0.5, 0.9)  # ratio inside [low, high): needs_review; below low: narrow (overlay)
 
 # --- PDF download ------------------------------------------------------------
 # False: keep existing PDFs whose hash matches the download log; report any

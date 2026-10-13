@@ -1,0 +1,88 @@
+week_start,iso_year,iso_week,base_files,TRAS_SHORTFALL_EMERGENCY,TRAS_SHORTFALL,TRAS_EMERGENCY,TRAS_MARKET,SRAS_PAYMENT,SRAS_PERFORMANCE,SCUC,CONSOLIDATED
+2024-12-30,2025,1,140120251714494019trasdec24.5.pdf,True,False,False,True,True,True,True,True
+2025-01-06,2025,2,210120251732280608trasjan25.1.pdf,True,False,False,True,True,True,True,True
+2025-01-13,2025,3,280120252257134204trasjan25.2.pdf;300120251647133092srasjan25.2a.pdf,True,False,False,True,True,True,True,True
+2025-01-20,2025,4,060220251515506469trasjan25.3.pdf,True,False,False,True,True,True,True,True
+2025-01-27,2025,5,110220251653583133trasjan25.4.pdf,True,False,False,True,True,True,True,True
+2025-02-03,2025,6,180220251739454960trasfeb25.1.pdf,True,False,False,True,True,True,True,True
+2025-02-10,2025,7,250220251707070799trasfeb24.2.pdf,True,False,False,True,True,True,True,True
+2025-02-17,2025,8,100320251524122084trasfeb24.3a.pdf;040320251733225726TRAS_17.02.25to 23.02.25.pdf,True,False,False,True,True,True,True,True
+2025-02-24,2025,9,130320251048030107trasfeb24.4a.pdf;110320251718503511trasfeb25.4.pdf,True,False,False,True,True,True,True,True
+2025-03-03,2025,10,180320251653263892trasmar25.1.pdf,True,False,False,True,True,True,True,True
+2025-03-10,2025,11,250320251706118777trasmar25.2.pdf,True,False,False,True,True,True,True,True
+2025-03-17,2025,12,020420251843500333trasmar25.3.pdf,True,False,False,True,True,True,True,True
+2025-03-24,2025,13,080420251653276830trasmar25.4.pdf,True,False,False,True,True,True,True,True
+2025-03-31,2025,14,150420251747060261trasmar25.5.pdf,True,False,False,True,True,True,True,True
+2025-04-07,2025,15,230420250914211905trassrasscucapr25.1.pdf,True,False,False,True,True,True,True,True
+2025-04-14,2025,16,290420251720137233trasapr25.2.pdf,True,False,False,True,True,True,True,True
+2025-04-21,2025,17,230520251654238676trasapr25.3a.pdf,True,False,False,True,True,True,True,True
+2025-04-28,2025,18,130520251705415850trasapr25.4.pdf,True,False,False,True,True,True,True,True
+2025-05-05,2025,19,230520251654503332trasmay25.1a.pdf,True,False,False,True,True,True,True,True
+2025-05-12,2025,20,270520251744055921trasapr25.2.pdf,True,False,False,True,True,True,True,True
+2025-05-19,2025,21,1712202512521111151 trasmay25.3a_rev1.pdf,False,True,True,True,True,True,True,True
+2025-05-26,2025,22,1712202512523144502 trasmay25.4b_rev2.pdf,False,True,True,True,True,True,True,True
+2025-06-02,2025,23,1712202512525211563 trasjun25.1b_rev2.pdf,False,True,True,True,True,True,True,True
+2025-06-09,2025,24,1212202512535970354 trasjun25.2b_rev2.pdf,False,True,False,True,True,True,True,True
+2025-06-16,2025,25,1212202515580964455 trasjun25.3a_rev1.pdf,False,True,True,True,True,True,True,True
+2025-06-23,2025,26,1212202515582854896 trasjun25.4a_rev1.pdf,False,True,True,True,True,True,True,True
+2025-06-30,2025,27,1212202515584804907 trasjun25.5a_rev1.pdf,False,True,True,True,True,True,True,True
+2025-07-07,2025,28,1212202515590703498 trasjul25.1a_rev1.pdf,False,True,True,True,True,True,True,True
+2025-07-14,2025,29,290720251626190555trasjul25.2.pdf,False,True,True,True,True,True,True,True
+2025-07-21,2025,30,1009202613524422181 trasjul25.3a.pdf,False,True,True,True,True,True,True,True
+2025-07-28,2025,31,1009202613530200092 trasjul25.4b.pdf,False,True,True,True,True,True,True,True
+2025-08-04,2025,32,1009202613531885453 trasaug25.1a.pdf,False,True,True,True,True,True,True,True
+2025-08-11,2025,33,1009202613533607314 trasaug25.2b.pdf,False,True,True,True,True,True,True,True
+2025-08-18,2025,34,040920250949172591trasaug25.3.pdf,False,True,True,True,True,True,True,True
+2025-08-25,2025,35,100920252026045389trasaug25.4.pdf,False,True,True,True,True,True,True,True
+2025-09-01,2025,36,160920251747397101trassep25.1.pdf,False,True,True,True,True,True,True,True
+2025-09-08,2025,37,230920251529344491trassep25.2.pdf,False,True,True,True,True,True,True,True
+2025-09-15,2025,38,011020251036024108tras_sras_scuc.pdf,False,True,True,True,True,True,True,True
+2025-09-22,2025,39,091020251617293039tras cover.pdf,False,True,True,True,True,True,True,True
+2025-09-29,2025,40,141020251700089339trassep25.5.pdf,False,True,True,True,True,True,True,True
+2025-10-06,2025,41,211020251732205899trasoct25.1.pdf,False,True,True,True,True,True,True,True
+2025-10-13,2025,42,281020251801144958tras.pdf,False,True,True,True,True,True,True,True
+2025-10-20,2025,43,041120252055169506trasoct25.3.pdf,False,True,True,True,True,True,True,True
+2025-10-27,2025,44,111120251951528227trasoct25.4.pdf,False,True,True,True,True,True,True,True
+2025-11-03,2025,45,181120251314013779trasnov25.1.pdf,False,True,True,True,True,True,True,True
+2025-11-10,2025,46,251120251643248452trasnov25.2.pdf,False,True,True,True,True,True,True,True
+2025-11-17,2025,47,021220251721377696trasnov25.3.pdf,False,True,True,True,True,True,True,True
+2025-11-24,2025,48,091220251640352483trasnov25.4.pdf,False,True,True,True,True,True,True,True
+2025-12-01,2025,49,161220251725521400trasdec25.1.pdf,False,True,True,True,True,True,True,True
+2025-12-08,2025,50,241220251240139603trasdec25.2.pdf,False,True,True,True,True,True,True,True
+2025-12-15,2025,51,301220251433249571trasdec25.3.pdf,False,True,True,True,True,True,True,True
+2025-12-22,2025,52,060120261738482020trasdec25.4.pdf,False,True,True,True,True,True,True,True
+2025-12-29,2026,1,130120261244593014trasdec25.5.pdf,False,True,True,True,True,True,True,True
+2026-01-05,2026,2,210120261016223385trasjan25.1.pdf,False,True,True,True,True,True,True,True
+2026-01-12,2026,3,280120261919280641trasjan25.2.pdf,False,True,True,True,True,True,True,True
+2026-01-19,2026,4,040220261204495444trasjan26.3.pdf,False,True,True,True,True,True,True,True
+2026-01-26,2026,5,100220261541147253trasjan26.4.pdf,False,True,True,True,True,True,True,True
+2026-02-02,2026,6,170220261712369692trasfeb26.1.pdf,False,True,True,True,True,True,True,True
+2026-02-09,2026,7,240220261728130346trasfeb26.2.pdf,False,True,True,True,True,True,True,True
+2026-02-16,2026,8,040320261710110337trasfeb26.3.pdf,False,True,True,True,True,True,True,True
+2026-02-23,2026,9,110320260922134716trasfeb26.4.pdf,False,True,True,True,True,True,True,True
+2026-03-02,2026,10,180320261152218479trasmar26.1.pdf,False,True,True,True,True,True,True,True
+2026-03-09,2026,11,240320261724013931trasmar26.2.pdf,False,True,True,True,True,True,True,True
+2026-03-16,2026,12,020420261922343449020420261439217612trasmar26.3.pdf,False,True,True,True,True,True,True,True
+2026-03-23,2026,13,070420261727340787trasmar26.4.pdf,False,True,True,True,True,True,True,True
+2026-03-30,2026,14,150420261733522369trasmar26.5.pdf,False,True,True,True,True,True,True,True
+2026-04-06,2026,15,210420261719192474trasapr26.1.pdf,False,True,True,True,True,True,True,True
+2026-04-13,2026,16,300420261211310776trasapr26.2.pdf,False,True,True,True,True,True,True,True
+2026-04-20,2026,17,070520261238008482trasapr26.3.pdf,False,True,True,True,True,True,True,True
+2026-04-27,2026,18,120520261804285455trasapr26.4.pdf,False,True,True,True,True,True,True,True
+2026-05-04,2026,19,190520262148399656trasmay26.1.pdf,False,True,True,True,True,True,True,True
+2026-05-11,2026,20,270520261242339534trasmay26.2.pdf,False,True,True,True,True,True,True,True
+2026-05-18,2026,21,020620261655279701trasmay26.3.pdf,False,True,True,True,True,True,True,True
+2026-05-25,2026,22,090620261642493606trasmay26.4.pdf,False,True,True,True,True,True,True,True
+2026-06-01,2026,23,160620262216356073trasjun26.1.pdf,False,True,True,True,True,True,True,True
+2026-06-08,2026,24,230620261718231924trasjun26.2.pdf,False,True,True,True,True,True,True,True
+2026-06-15,2026,25,300620261712592119trasjun26.3 Updated.pdf,False,True,True,True,True,True,True,True
+2026-06-22,2026,26,080720261651111414trasjun26.4.pdf,False,True,True,True,True,True,True,True
+2026-06-29,2026,27,140720261628448113trasjun26.5.pdf,False,True,True,True,True,True,True,True
+2026-07-06,2026,28,210720262136514475trasjul26.1.pdf,False,True,True,True,True,True,True,True
+2026-07-13,2026,29,300720261703324308trasjul26.2.pdf,False,True,True,True,True,True,True,True
+2026-07-20,2026,30,040820261450151928draft_trasjul26.3.pdf,False,True,True,True,True,True,True,True
+2026-07-27,2026,31,110820261650128319draft_trasjul26.4.pdf,False,True,True,True,True,True,True,True
+2026-08-03,2026,32,180820261803202478Final upload.pdf,False,True,True,True,True,True,True,True
+2026-08-10,2026,33,260820261154228177TRAS SRAS SCUC-new.pdf,False,True,True,True,True,True,True,True
+2026-08-17,2026,34,010920261726152742trasaug26.pdf,False,True,True,True,True,True,True,True
+2026-08-24,2026,35,090920260950246377trasaug26.4.pdf,False,True,True,True,True,True,True,True
